@@ -1,0 +1,19 @@
+{
+	"name": "guild",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"server": "nodemon index.js"
+	},
+	"author": "Niki-Nik",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.11.13",
+		"nodemon": "^2.0.7",
+		"socket.io": "^3.1.0"
+	}
+}
